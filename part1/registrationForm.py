@@ -34,7 +34,7 @@ welcome_text = welcome_text_elt.text
 # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
 assert "Поздравляем! Вы успешно зарегистировались!" == welcome_text
 
-
+# Solution another by guy
 # input1 = browser.find_element_by_xpath("//input[contains(@class, 'first') and @required]")
 # input1.send_keys("Ivan")
 # input2 = browser.find_element_by_xpath("//input[contains(@class, 'second') and @required]")
